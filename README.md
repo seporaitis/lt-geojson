@@ -57,6 +57,10 @@ Preview:
 
 ![subdistricts.png](images/subdistricts.png)
 
+# Examples
+
+See [example Jupyter notebook](example.ipynb).
+
 
 # License
 
