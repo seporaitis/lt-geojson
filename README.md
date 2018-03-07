@@ -4,7 +4,7 @@ Various level exports of lithuanian map into GeoJSON format.
 
 Export is done from http://overpass-turbo.eu/
 
-## Counties
+## Counties (Apskritys)
 
 Overpass query:
 
@@ -22,7 +22,7 @@ Preview:
 ![counties.png](images/counties.png)
 
 
-## Municipalities
+## Municipalities (Savivaldybės)
 
 Overpass query:
 
