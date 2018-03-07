@@ -40,6 +40,24 @@ Preview:
 ![municipalities.png](images/municipalities.png)
 
 
+## Subdistricts (Seniunijos)
+
+Overpass query:
+
+```
+[out:json][timeout:45];
+area["ISO3166-1"="LT"]->.a;
+(relation(area.a)["admin_level"=6][boundary="administrative"];);
+out body;
+>;
+out skel qt;
+```
+
+Preview:
+
+![subdistricts.png](images/subdistricts.png)
+
+
 # License
 
 Map data © OpenStreetMap contributors.
