@@ -1,8 +1,8 @@
-# Lithuania GeoJSON
+# Maps of Lithuania in GeoJSON Format
 
-Various level exports of lithuanian map into GeoJSON format.
+Various level exports of lithuanian administrative districts in GeoJSON format.
 
-Export is done from http://overpass-turbo.eu/
+Exported using [Overpass](http://overpass-turbo.eu/)
 
 ## Counties (Apskritys)
 
