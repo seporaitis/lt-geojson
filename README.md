@@ -47,7 +47,7 @@ Overpass query:
 ```
 [out:json][timeout:45];
 area["ISO3166-1"="LT"]->.a;
-(relation(area.a)["admin_level"=6][boundary="administrative"];);
+(relation(area.a)["admin_level"~"^6|10$"]["name"~"seniūnija$"][boundary="administrative"];);
 out body;
 >;
 out skel qt;
